@@ -1,0 +1,250 @@
+﻿@using DOAN_WEB_1.Models;
+@using PagedList.Mvc;
+@model PagedList.PagedList<SANPHAM>
+@{
+    ViewBag.Title = "Sanpham";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<h3 style="Text-align:Center; color:red"> ỐP LƯNG IPHONE MỚI </h3>
+<div class="row">
+    @foreach (var sp in Model)
+    {
+        <div class="col-sm-4 col-lg-4 col-md-4">
+            <div class="thumbnail">
+                <a href="@Url.Action("Details", "Sanpham", new { id = sp.MaSP})">
+                    <img alt="@sp.TenSP" src="~/Content/images/" width="200" />
+                    <div>
+                        <br />
+                        <h4 style="text-align:center">
+                            @sp.TenSP
+                        </h4>
+                        <p></p>
+                    </div>
+                    <div class="ratings">
+                        <p class="pull-right">7 reviews</p>
+                        <p>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star">
+                            </span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                        </p>
+                    </div>
+            </div>
+        </div>
+    }
+<section class="shop_section layout_padding">
+    <div class="container">
+        <div class="heading_container heading_center">
+            <h2>
+                ỐP LƯNG IPHONE MỚI NHẤT
+            </h2>
+        </div>
+        <div class="row">
+            <div class="col-md-6 ">
+                <div class="box">
+                    <a href="">
+                        <div class="img-box">
+                            <img src="~/Content/images/oplung_13_2.png" />
+                        </div>
+                        <div class="detail-box">
+                            <h6>
+                                Ốp Lưng Iphone 13
+                            </h6>
+                            <h6>
+                                Giá:
+                                <span>
+                                    299.999 VNĐ
+                                </span>
+                            </h6>
+                        </div>
+                        <div class="new">
+                            <span>
+                                Featured
+                            </span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-6 col-xl-3">
+                <div class="box">
+                    <a href="">
+                        <div class="img-box">
+                            <img src="~/Content/images/oplung_13_2.png" />
+                        </div>
+                        <div class="detail-box">
+                            <h6>
+                                Ốp Lưng Iphone 13
+                            </h6>
+                            <h6>
+                                Giá:
+                                <span>
+                                    299.999 VNĐ
+                                </span>
+                            </h6>
+                        </div>
+                        <div class="new">
+                            <span>
+                                New
+                            </span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-6 col-xl-3">
+                <div class="box">
+                    <a href="">
+                        <div class="img-box">
+                            <img src="~/Content/images/oplung_13_2.png" />
+                        </div>
+                        <div class="detail-box">
+                            <h6>
+                                Ốp Lưng Iphone 13
+                            </h6>
+                            <h6>
+                                Giá:
+                                <span>
+                                    299.999 VNĐ
+                                </span>
+                            </h6>
+                        </div>
+                        <div class="new">
+                            <span>
+                                New
+                            </span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-6 col-xl-3">
+                <div class="box">
+                    <a href="">
+                        <div class="img-box">
+                            <img src="~/Content/images/oplung_13_2.png" />
+                        </div>
+                        <div class="detail-box">
+                            <h6>
+                                Ốp Lưng Iphone 13
+                            </h6>
+                            <h6>
+                                Giá:
+                                <span>
+                                    299.999 VNĐ
+                                </span>
+                            </h6>
+                        </div>
+                        <div class="new">
+                            <span>
+                                New
+                            </span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-6 col-xl-3">
+                <div class="box">
+                    <a href="">
+                        <div class="img-box">
+                            <img src="~/Content/images/oplung_13_2.png" />
+                        </div>
+                        <div class="detail-box">
+                            <h6>
+                                Ốp Lưng Iphone 13
+                            </h6>
+                            <h6>
+                                Giá:
+                                <span>
+                                    299.999 VNĐ
+                                </span>
+                            </h6>
+                        </div>
+                        <div class="new">
+                            <span>
+                                New
+                            </span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-6  col-xl-3">
+                <div class="box">
+                    <a href="">
+                        <div class="img-box">
+
+                            <img src="~/Content/images/oplung_13_2.png" />
+                        </div>
+                        <div class="detail-box">
+                            <h6>
+                                Ốp Lưng Iphone 13
+                            </h6>
+                            <h6>
+                                Giá:
+                                <span>
+                                    299.999 VNĐ
+                                </span>
+                            </h6>
+                        </div>
+                        <div class="new">
+                            <span>
+                                New
+                            </span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-6 col-xl-3">
+                <div class="box">
+                    <a href="">
+                        <div class="img-box">
+                            <img src="~/Content/images/oplung_13_2.png" />
+                        </div>
+                        <div class="detail-box">
+                            <h6>
+                                Ốp Lưng Iphone 13
+                            </h6>
+                            <h6>
+                                Giá:
+                                <span>
+                                    299.999 VNĐ
+                                </span>
+                            </h6>
+                        </div>
+                        <div class="new">
+                            <span>
+                                New
+                            </span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="btn-box">
+            <a href="">
+                Xem tất cả
+            </a>
+        </div>
+    </div>
+</section>
+    <div class="col-sm-4 col-lg-4 col-md-4">
+        <h4>
+            <a href="#">Like this template?</a>
+        </h4>
+        <p>If you like this template, then check out <a target="_blank" href="http://maxoffsky.com/code-blog/laravel-shop-tutorial-1-building-a-review-system/">this tutorial</a> on how to build a working review system for your online store!</p>
+        <a class="btn btn-primary" target="_blank" href="http://maxoffsky.com/code-blog/laravel-shop-tutorial-1-building-a-review-system/">View Tutorial</a>
+    </div>
+</div>
+
+@* Tao liên kết các trang  *@
+Trang @(Model.PageCount<Model.PageNumber?0:Model.PageNumber)/@Model.PageCount;
+<div class="MenuTrang">
+
+    @Html.PagedListPager(Model, page => Url.Action("Index", new { page = page }))
+</div>
+<style>
+    .MenuTrang li {
+        display: inline;
+    }
+</style>
+
